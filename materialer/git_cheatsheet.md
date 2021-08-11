@@ -2,6 +2,7 @@
 
 # Branching
 
+# Ny Branch
 Lav en ny branch med et givent navn og skift til denne branch i samme hug.    
 
 ```` 
@@ -18,3 +19,18 @@ git checkout <navn>
 
 Denne metode vil __ikke__ tage ændringer fra det sidste commit i feks. "main" med over i den nye branch, og derfor have dem med i "main".
 	
+# Slette en branch
+## Local branch
+
+````
+git branch -d <navn>
+
+````
+
+## Remote (github)
+````
+git push --delete origin <navn>
+
+````
+
+
