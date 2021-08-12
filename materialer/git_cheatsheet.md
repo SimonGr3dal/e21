@@ -37,5 +37,6 @@ git push --delete origin <navn>
 
 * git restore (discard changes from last commit)
 * Fetch & pull
+* git switch -c <new-branch-name>
 
 
