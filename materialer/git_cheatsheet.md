@@ -33,10 +33,25 @@ git push --delete origin <navn>
 
 ````
 
+## Clone a branch
+
+````
+git clone <repo>
+git branch 
+*main
+git branch -a
+<all remotes>
+git checkout -b origin/remote_branch
+
+````
+
+
+
+
 ## TODOs
 
 * git restore (discard changes from last commit)
 * Fetch & pull
 * git switch -c <new-branch-name>
 
-
+* 
