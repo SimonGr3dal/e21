@@ -33,4 +33,6 @@ git push --delete origin <navn>
 
 ````
 
+## Todos 2
 
+* git switch -c <branchname>
